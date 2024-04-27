@@ -10,14 +10,28 @@ Security in Computing is a comprehensive course exploring various security pract
 
 __How to compile the program__
 
-bash 
 ```
 gcc -o pa01 pa01.c
 ```
 
 __How to execute code__
 
-bash
 ```
 bash pa01test.sh pa01.c
+```
+
+### Checksums
+
+- In this assigmnet I was tasked with developing a program to calculate checksums for text files of varying sizes. The program takes two command-line parameters: the input file for checksum calculation and the desired checksum size (8, 16, or 32 bits). It must then output the processed input text, formatted in rows of 80 characters, followed by the calculated checksum. The assignment emphasizes handling input parameters, file processing, output formatting, and checksum calculation based on the specified size.
+
+__How to compile the program__
+
+```
+gcc -o pa02 pa02.c
+```
+
+__How to execute code__
+
+```
+bash pa02test.sh pa02.c
 ```
